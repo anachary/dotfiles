@@ -20,12 +20,12 @@ function makelink {
 }
 
 function setup_vim {
-    makelink ~/workspace/dotfiles/.vim
+    # makelink ~/workspace/dotfiles/.vim
     makelink ~/workspace/dotfiles/.vimrc
     # makelink ~/workspace/dotfiles/.xvimrc
 
-    makelink ~/Library/Mobile\ Documents/com~apple~CloudDocs/Vim/pack ~/.vim
-    makelink ~/Library/Mobile\ Documents/com~apple~CloudDocs/Vim/spell ~/.vim
+    # makelink ~/Library/Mobile\ Documents/com~apple~CloudDocs/Vim/pack ~/.vim
+    # makelink ~/Library/Mobile\ Documents/com~apple~CloudDocs/Vim/spell ~/.vim
 
     mkdir -p ~/.vim/backup/undo
 }
