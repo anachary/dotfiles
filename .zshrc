@@ -82,9 +82,6 @@ export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.0
 export PATH=$PATH:$EC2_HOME/bin 
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
-export SL_USERNAME="maxim@us.ibm.com"
-export SL_API_KEY="4afb3febf56ebbfb607468abbd862936e85aa9397458722dd3758c73c3598879"
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
